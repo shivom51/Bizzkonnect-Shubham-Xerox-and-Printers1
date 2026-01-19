@@ -1,0 +1,1238 @@
+<!doctype html>
+<html lang="en" class="h-full">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shubham Xerox and Printers - शुभम झेरॉक्स &amp; प्रिंटर्स | Professional Printing Services in Hingoli</title>
+  <meta name="description" content="Shubham Xerox and Printers - Reliable Xerox, Printing, Scanning, Lamination &amp; Document Services in Sirsam, Hingoli. Open daily from 06:00 AM. Call 7057239815">
+  <meta property="og:title" content="Shubham Xerox and Printers - Professional Printing Services">
+  <meta property="og:description" content="Reliable Xerox &amp; Printing Services in Hingoli">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://bizzkonnect.in/shubham-xerox-and-printers">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="/_sdk/element_sdk.js"></script>
+  <script src="/_sdk/data_sdk.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Devanagari:wght@400;500;600;700&amp;family=Outfit:wght@300;400;500;600;700;800&amp;display=swap" rel="stylesheet">
+  <style>
+    body {
+      box-sizing: border-box;
+    }
+    
+    * {
+      font-family: 'Outfit', 'Noto Sans Devanagari', sans-serif;
+    }
+    
+    html {
+      scroll-behavior: smooth;
+    }
+    
+    :root {
+      --navy: #0f172a;
+      --navy-light: #1e293b;
+      --navy-lighter: #334155;
+      --orange: #f97316;
+      --orange-light: #fb923c;
+      --white: #ffffff;
+      --gray-50: #f8fafc;
+      --gray-100: #f1f5f9;
+      --gray-200: #e2e8f0;
+      --gray-600: #475569;
+      --gray-800: #1e293b;
+    }
+    
+    body {
+      background-color: var(--gray-50);
+      color: var(--navy);
+    }
+    
+    /* Bottom Navigation - Always Fixed */
+    .bottom-nav {
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      background: var(--white);
+      box-shadow: 0 -4px 20px rgba(0, 0, 0, 0.1);
+      z-index: 100;
+      padding-bottom: env(safe-area-inset-bottom);
+    }
+    
+    .nav-item {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 0.5rem 0.25rem;
+      color: var(--gray-600);
+      transition: all 0.3s ease;
+      cursor: pointer;
+      text-decoration: none;
+      font-size: 0.7rem;
+      gap: 0.25rem;
+    }
+    
+    .nav-item:hover,
+    .nav-item.active {
+      color: var(--orange);
+    }
+    
+    .nav-item svg {
+      width: 1.5rem;
+      height: 1.5rem;
+    }
+    
+    .nav-item.active {
+      position: relative;
+    }
+    
+    .nav-item.active::before {
+      content: '';
+      position: absolute;
+      top: -2px;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 50%;
+      height: 3px;
+      background: var(--orange);
+      border-radius: 0 0 3px 3px;
+    }
+    
+    /* Main Content Area */
+    .main-content {
+      padding-bottom: 80px;
+    }
+    
+    /* Page Sections */
+    .page-section {
+      min-height: 50%;
+      scroll-margin-top: 60px;
+    }
+    
+    /* Cards */
+    .card {
+      background: var(--white);
+      border-radius: 12px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+      transition: all 0.3s ease;
+    }
+    
+    .card:hover {
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+      transform: translateY(-2px);
+    }
+    
+    /* Buttons */
+    .btn-primary {
+      background: linear-gradient(135deg, var(--orange), var(--orange-light));
+      color: var(--white);
+      padding: 0.75rem 1.5rem;
+      border-radius: 50px;
+      font-weight: 600;
+      border: none;
+      cursor: pointer;
+      transition: all 0.3s ease;
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      text-decoration: none;
+    }
+    
+    .btn-primary:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 6px 20px rgba(249, 115, 22, 0.4);
+    }
+    
+    .btn-secondary {
+      background: var(--white);
+      color: var(--navy);
+      border: 2px solid var(--navy);
+      padding: 0.75rem 1.5rem;
+      border-radius: 50px;
+      font-weight: 600;
+      cursor: pointer;
+      transition: all 0.3s ease;
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      text-decoration: none;
+    }
+    
+    .btn-secondary:hover {
+      background: var(--navy);
+      color: var(--white);
+    }
+    
+    /* Floating Buttons */
+    .floating-whatsapp {
+      position: fixed;
+      bottom: 100px;
+      right: 20px;
+      width: 60px;
+      height: 60px;
+      background: linear-gradient(135deg, #25D366, #128C7E);
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      box-shadow: 0 6px 20px rgba(37, 211, 102, 0.4);
+      cursor: pointer;
+      z-index: 90;
+      transition: all 0.3s ease;
+      animation: float 3s ease-in-out infinite;
+    }
+    
+    .floating-whatsapp:hover {
+      transform: scale(1.1);
+      box-shadow: 0 8px 30px rgba(37, 211, 102, 0.5);
+    }
+    
+    .floating-call {
+      position: fixed;
+      bottom: 100px;
+      left: 20px;
+      width: 60px;
+      height: 60px;
+      background: linear-gradient(135deg, var(--orange), var(--orange-light));
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      box-shadow: 0 6px 20px rgba(249, 115, 22, 0.4);
+      cursor: pointer;
+      z-index: 90;
+      transition: all 0.3s ease;
+      animation: float 3s ease-in-out infinite 1.5s;
+    }
+    
+    .floating-call:hover {
+      transform: scale(1.1);
+      box-shadow: 0 8px 30px rgba(249, 115, 22, 0.5);
+    }
+    
+    @keyframes float {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(-10px); }
+    }
+    
+    /* Badge */
+    .badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      padding: 0.5rem 1rem;
+      border-radius: 50px;
+      font-size: 0.875rem;
+      font-weight: 600;
+    }
+    
+    .badge-success {
+      background: #dcfce7;
+      color: #166534;
+    }
+    
+    .badge-danger {
+      background: #fee2e2;
+      color: #991b1b;
+    }
+    
+    /* Top Stats Bar */
+    .top-stats {
+      background: var(--white);
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+      padding: 0.75rem 1rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      position: sticky;
+      top: 0;
+      z-index: 50;
+    }
+    
+    /* Modal */
+    .modal {
+      display: none;
+      position: fixed;
+      inset: 0;
+      background: rgba(0, 0, 0, 0.5);
+      z-index: 200;
+      align-items: center;
+      justify-content: center;
+      padding: 1rem;
+    }
+    
+    .modal.active {
+      display: flex;
+    }
+    
+    .modal-content {
+      background: var(--white);
+      border-radius: 16px;
+      padding: 2rem;
+      max-width: 500px;
+      width: 100%;
+      max-height: 90%;
+      overflow-y: auto;
+      position: relative;
+      animation: slideUp 0.3s ease-out;
+    }
+    
+    @keyframes slideUp {
+      from {
+        opacity: 0;
+        transform: translateY(30px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+    
+    /* Form Elements */
+    input, textarea, select {
+      width: 100%;
+      padding: 0.875rem;
+      border: 2px solid var(--gray-200);
+      border-radius: 8px;
+      font-size: 1rem;
+      transition: all 0.3s ease;
+      background: var(--white);
+    }
+    
+    input:focus, textarea:focus, select:focus {
+      outline: none;
+      border-color: var(--orange);
+      box-shadow: 0 0 0 3px rgba(249, 115, 22, 0.1);
+    }
+    
+    label {
+      display: block;
+      font-weight: 600;
+      margin-bottom: 0.5rem;
+      color: var(--navy);
+    }
+    
+    /* Star Rating */
+    .star-rating {
+      display: flex;
+      gap: 0.5rem;
+      font-size: 2rem;
+    }
+    
+    .star {
+      cursor: pointer;
+      color: var(--gray-200);
+      transition: all 0.2s ease;
+    }
+    
+    .star.active,
+    .star:hover {
+      color: #fbbf24;
+    }
+    
+    /* Gallery Grid */
+    .gallery-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+      gap: 1rem;
+    }
+    
+    .gallery-item {
+      aspect-ratio: 1;
+      border-radius: 12px;
+      overflow: hidden;
+      cursor: pointer;
+      background: linear-gradient(135deg, var(--navy), var(--navy-light));
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: transform 0.3s ease;
+    }
+    
+    .gallery-item:hover {
+      transform: scale(1.05);
+    }
+    
+    /* QR Code */
+    .qr-placeholder {
+      width: 240px;
+      height: 240px;
+      background: var(--white);
+      border: 2px solid var(--gray-200);
+      border-radius: 12px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 0 auto;
+    }
+    
+    /* Service Icons */
+    .service-icon {
+      width: 48px;
+      height: 48px;
+      background: linear-gradient(135deg, var(--orange), var(--orange-light));
+      border-radius: 12px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 1rem;
+    }
+    
+    /* Section Divider */
+    .section-divider {
+      height: 4px;
+      background: linear-gradient(90deg, transparent, var(--orange), transparent);
+      margin: 2rem 0;
+    }
+    
+    /* Responsive */
+    @media (min-width: 768px) {
+      .gallery-grid {
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+      }
+      
+      .nav-item {
+        font-size: 0.8rem;
+      }
+      
+      .nav-item svg {
+        width: 1.75rem;
+        height: 1.75rem;
+      }
+    }
+    
+    @media (min-width: 1024px) {
+      .bottom-nav {
+        max-width: 800px;
+        left: 50%;
+        transform: translateX(-50%);
+        border-radius: 16px 16px 0 0;
+      }
+    }
+  </style>
+  <style>@view-transition { navigation: auto; }</style>
+ </head>
+ <body class="h-full">
+  <div id="app" class="h-full w-full overflow-auto"><!-- Top Stats Bar -->
+   <div class="top-stats">
+    <div class="flex items-center gap-2">
+     <svg class="w-5 h-5" style="color: var(--orange);" fill="currentColor" viewbox="0 0 20 20"><path d="M10 12a2 2 0 100-4 2 2 0 000 4z" /> <path fill-rule="evenodd" d="M.458 10C1.732 5.943 5.522 3 10 3s8.268 2.943 9.542 7c-1.274 4.057-5.064 7-9.542 7S1.732 14.057.458 10zM14 10a4 4 0 11-8 0 4 4 0 018 0z" clip-rule="evenodd" />
+     </svg><span class="font-semibold text-sm">Views: <span id="view-count">13</span></span>
+    </div>
+    <div id="open-badge" class="badge badge-success"><span class="w-2 h-2 bg-green-600 rounded-full animate-pulse"></span> <span>Open Now</span>
+    </div>
+   </div><!-- Main Content -->
+   <div class="main-content"><!-- Page 1: Home -->
+    <section id="page-home" class="page-section">
+     <div class="px-4 py-6 max-w-4xl mx-auto"><!-- Hero -->
+      <div class="text-center mb-8">
+       <h1 id="business-name-english" class="text-3xl md:text-4xl font-bold mb-2" style="color: var(--navy);">Shubham Xerox and Printers</h1>
+       <h2 id="business-name-marathi" class="text-2xl md:text-3xl font-semibold mb-4" style="color: var(--navy-light);">शुभम झेरॉक्स &amp; प्रिंटर्स</h2>
+       <p id="tagline" class="text-lg md:text-xl mb-6" style="color: var(--gray-600);">Reliable Xerox &amp; Printing Services</p><!-- Quick Action Buttons -->
+       <div class="flex flex-wrap gap-3 justify-center mb-8"><a id="home-call-btn" href="tel:7057239815" class="btn-primary">
+         <svg class="w-5 h-5" fill="none" stroke="currentColor" viewbox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
+         </svg> Call Now </a> <a id="home-whatsapp-btn" href="https://wa.me/917057239815" target="_blank" rel="noopener noreferrer" class="btn-primary" style="background: linear-gradient(135deg, #25D366, #128C7E);">
+         <svg class="w-5 h-5" fill="currentColor" viewbox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z" />
+         </svg> WhatsApp </a> <a id="home-directions-btn" href="https://maps.google.com/?q=Sirsam+Hingoli" target="_blank" rel="noopener noreferrer" class="btn-secondary">
+         <svg class="w-5 h-5" fill="none" stroke="currentColor" viewbox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" /> <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+         </svg> Directions </a>
+       </div><!-- Quick Info Cards -->
+       <div class="grid grid-cols-2 md:grid-cols-3 gap-4 mb-6">
+        <div class="card p-4 text-center">
+         <div class="text-3xl font-bold mb-1" style="color: var(--orange);" id="years-badge">
+          5+
+         </div>
+         <div class="text-sm" style="color: var(--gray-600);">
+          Years in Business
+         </div>
+        </div>
+        <div class="card p-4 text-center">
+         <div class="text-3xl font-bold mb-1" style="color: var(--orange);">
+          Services
+         </div>
+         <div class="text-sm" style="color: var(--gray-600);">
+          Multiple Offerings
+         </div>
+        </div>
+        <div class="card p-4 text-center col-span-2 md:col-span-1">
+         <div class="text-3xl font-bold mb-1" style="color: var(--orange);">
+          Daily
+         </div>
+         <div class="text-sm" style="color: var(--gray-600);">
+          Open 7 Days
+         </div>
+        </div>
+       </div><!-- Save Contact CTAs -->
+       <div class="flex flex-wrap gap-3 justify-center"><button onclick="addToPhoneBook()" class="btn-secondary text-sm">
+         <svg class="w-4 h-4" fill="none" stroke="currentColor" viewbox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4v16m8-8H4" />
+         </svg> Add to Phone Book </button> <button onclick="saveBusinessCard()" class="btn-secondary text-sm">
+         <svg class="w-4 h-4" fill="none" stroke="currentColor" viewbox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 21h10a2 2 0 002-2V9.414a1 1 0 00-.293-.707l-5.414-5.414A1 1 0 0012.586 3H7a2 2 0 00-2 2v14a2 2 0 002 2z" />
+         </svg> Save Business Card </button>
+       </div>
+      </div>
+     </div>
+     <div class="section-divider"></div>
+    </section><!-- Page 2: About Us -->
+    <section id="page-about" class="page-section">
+     <div class="px-4 py-6 max-w-4xl mx-auto">
+      <h2 class="text-3xl font-bold mb-6 text-center" style="color: var(--navy);">About Us</h2>
+      <div class="card p-6 mb-6">
+       <h3 class="text-xl font-bold mb-4" style="color: var(--navy);">हमारे बारे में / About Our Shop</h3>
+       <p class="mb-4 leading-relaxed" style="color: var(--gray-600);"><strong>Shubham Xerox and Printers</strong> आपकी सभी दस्तावेज़ संबंधी आवश्यकताओं के लिए एक विश्वसनीय स्थानीय सेवा प्रदाता है। हम गुणवत्ता, विश्वसनीयता और ग्राहक संतुष्टि पर ध्यान केंद्रित करते हैं।</p>
+       <p class="leading-relaxed" style="color: var(--gray-600);">We are your trusted local service provider for all document-related needs in Sirsam, Hingoli. Since <span id="about-established-year" class="font-semibold" style="color: var(--orange);">2021</span>, we've built our reputation on reliability, quality work, and customer satisfaction.</p>
+      </div>
+      <div class="card p-6 mb-6">
+       <h3 class="text-xl font-bold mb-4" style="color: var(--navy);">Business Details</h3>
+       <div class="space-y-3">
+        <div class="flex justify-between items-center border-b pb-2" style="border-color: var(--gray-200);"><span style="color: var(--gray-600);">Established</span> <span id="about-established" class="font-semibold" style="color: var(--navy);">2021</span>
+        </div>
+        <div class="flex justify-between items-center border-b pb-2" style="border-color: var(--gray-200);"><span style="color: var(--gray-600);">Business Type</span> <span class="font-semibold" style="color: var(--navy);">Sole Proprietorship</span>
+        </div>
+        <div class="flex justify-between items-center border-b pb-2" style="border-color: var(--gray-200);"><span style="color: var(--gray-600);">Manager</span> <span id="about-manager" class="font-semibold" style="color: var(--navy);">शुभम जिवराज दोडल</span>
+        </div>
+        <div class="flex justify-between items-center"><span style="color: var(--gray-600);">Languages</span> <span class="font-semibold" style="color: var(--navy);">Marathi + English</span>
+        </div>
+       </div>
+      </div>
+      <div class="card p-6">
+       <h3 class="text-xl font-bold mb-4" style="color: var(--navy);">Why Choose Us</h3>
+       <ul class="space-y-3">
+        <li class="flex items-start gap-3">
+         <svg class="w-6 h-6 flex-shrink-0" style="color: var(--orange);" fill="currentColor" viewbox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
+         </svg>
+         <div><strong>Reliable Service</strong> - Consistent quality and timely delivery
+         </div></li>
+        <li class="flex items-start gap-3">
+         <svg class="w-6 h-6 flex-shrink-0" style="color: var(--orange);" fill="currentColor" viewbox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
+         </svg>
+         <div><strong>Fast Turnaround</strong> - Quick processing for urgent needs
+         </div></li>
+        <li class="flex items-start gap-3">
+         <svg class="w-6 h-6 flex-shrink-0" style="color: var(--orange);" fill="currentColor" viewbox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
+         </svg>
+         <div><strong>Ethical Pricing</strong> - Transparent and affordable rates
+         </div></li>
+        <li class="flex items-start gap-3">
+         <svg class="w-6 h-6 flex-shrink-0" style="color: var(--orange);" fill="currentColor" viewbox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
+         </svg>
+         <div><strong>Secure Payments</strong> - Multiple payment options including UPI
+         </div></li>
+       </ul>
+      </div>
+     </div>
+     <div class="section-divider"></div>
+    </section><!-- Page 3: Services -->
+    <section id="page-services" class="page-section">
+     <div class="px-4 py-6 max-w-4xl mx-auto">
+      <h2 class="text-3xl font-bold mb-6 text-center" style="color: var(--navy);">Our Services</h2>
+      <div class="grid md:grid-cols-2 gap-4"><!-- Service 1 -->
+       <div class="card p-5">
+        <div class="service-icon">
+         <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewbox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7v8a2 2 0 002 2h6M8 7V5a2 2 0 012-2h4.586a1 1 0 01.707.293l4.414 4.414a1 1 0 01.293.707V15a2 2 0 01-2 2h-2M8 7H6a2 2 0 00-2 2v10a2 2 0 002 2h8a2 2 0 002-2v-2" />
+         </svg>
+        </div>
+        <h3 class="text-lg font-bold mb-2" style="color: var(--navy);">Xerox &amp; Photocopy</h3>
+        <p class="mb-4 text-sm" style="color: var(--gray-600);">High-quality black &amp; white and color photocopying services for all document types</p><button onclick="openEnquiryModal('Xerox &amp; Photocopy')" class="btn-primary text-sm w-full">Enquire Now</button>
+       </div><!-- Service 2 -->
+       <div class="card p-5">
+        <div class="service-icon">
+         <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewbox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 17h2a2 2 0 002-2v-4a2 2 0 00-2-2H5a2 2 0 00-2 2v4a2 2 0 002 2h2m2 4h6a2 2 0 002-2v-4a2 2 0 00-2-2H9a2 2 0 00-2 2v4a2 2 0 002 2zm8-12V5a2 2 0 00-2-2H9a2 2 0 00-2 2v4h10z" />
+         </svg>
+        </div>
+        <h3 class="text-lg font-bold mb-2" style="color: var(--navy);">Printing Services</h3>
+        <p class="mb-4 text-sm" style="color: var(--gray-600);">Professional printing for flyers, posters, digital invites, and custom projects</p><button onclick="openEnquiryModal('Printing Services')" class="btn-primary text-sm w-full">Enquire Now</button>
+       </div><!-- Service 3 -->
+       <div class="card p-5">
+        <div class="service-icon">
+         <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewbox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+         </svg>
+        </div>
+        <h3 class="text-lg font-bold mb-2" style="color: var(--navy);">Scanning &amp; PDF</h3>
+        <p class="mb-4 text-sm" style="color: var(--gray-600);">Convert physical documents to digital formats with scanning and PDF creation</p><button onclick="openEnquiryModal('Scanning &amp; PDF')" class="btn-primary text-sm w-full">Enquire Now</button>
+       </div><!-- Service 4 -->
+       <div class="card p-5">
+        <div class="service-icon">
+         <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewbox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 21a4 4 0 01-4-4V5a2 2 0 012-2h4a2 2 0 012 2v12a4 4 0 01-4 4zm0 0h12a2 2 0 002-2v-4a2 2 0 00-2-2h-2.343M11 7.343l1.657-1.657a2 2 0 012.828 0l2.829 2.829a2 2 0 010 2.828l-8.486 8.485M7 17h.01" />
+         </svg>
+        </div>
+        <h3 class="text-lg font-bold mb-2" style="color: var(--navy);">Lamination &amp; Binding</h3>
+        <p class="mb-4 text-sm" style="color: var(--gray-600);">Protect and organize documents with lamination and professional binding</p><button onclick="openEnquiryModal('Lamination &amp; Binding')" class="btn-primary text-sm w-full">Enquire Now</button>
+       </div><!-- Service 5 -->
+       <div class="card p-5">
+        <div class="service-icon">
+         <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewbox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 9a2 2 0 012-2h.93a2 2 0 001.664-.89l.812-1.22A2 2 0 0110.07 4h3.86a2 2 0 011.664.89l.812 1.22A2 2 0 0018.07 7H19a2 2 0 012 2v9a2 2 0 01-2 2H5a2 2 0 01-2-2V9z" /> <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 13a3 3 0 11-6 0 3 3 0 016 0z" />
+         </svg>
+        </div>
+        <h3 class="text-lg font-bold mb-2" style="color: var(--navy);">Passport &amp; ID Photos</h3>
+        <p class="mb-4 text-sm" style="color: var(--gray-600);">Professional passport size and ID photos with instant printing</p><button onclick="openEnquiryModal('Passport &amp; ID Photos')" class="btn-primary text-sm w-full">Enquire Now</button>
+       </div><!-- Service 6 -->
+       <div class="card p-5">
+        <div class="service-icon">
+         <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewbox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+         </svg>
+        </div>
+        <h3 class="text-lg font-bold mb-2" style="color: var(--navy);">Form Filling &amp; Document Help</h3>
+        <p class="mb-4 text-sm" style="color: var(--gray-600);">Assistance with online form filling and document preparation</p><button onclick="openEnquiryModal('Form Filling &amp; Document Help')" class="btn-primary text-sm w-full">Enquire Now</button>
+       </div>
+      </div>
+     </div>
+     <div class="section-divider"></div>
+    </section><!-- Page 4: Products -->
+    <section id="page-products" class="page-section">
+     <div class="px-4 py-6 max-w-4xl mx-auto">
+      <h2 class="text-3xl font-bold mb-6 text-center" style="color: var(--navy);">Products / Offerings</h2>
+      <div class="grid md:grid-cols-3 gap-4">
+       <div class="card overflow-hidden">
+        <div class="h-48 flex items-center justify-center" style="background: linear-gradient(135deg, var(--navy), var(--navy-light));">
+         <svg class="w-20 h-20 text-white opacity-75" fill="none" stroke="currentColor" viewbox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 17h2a2 2 0 002-2v-4a2 2 0 00-2-2H5a2 2 0 00-2 2v4a2 2 0 002 2h2m2 4h6a2 2 0 002-2v-4a2 2 0 00-2-2H9a2 2 0 00-2 2v4a2 2 0 002 2zm8-12V5a2 2 0 00-2-2H9a2 2 0 00-2 2v4h10z" />
+         </svg>
+        </div>
+        <div class="p-4">
+         <h3 class="text-lg font-bold mb-2" style="color: var(--navy);">Product 1: Printing Services</h3>
+         <p class="text-sm mb-4" style="color: var(--gray-600);">Comprehensive printing solutions for all needs</p><button onclick="openProductModal('Product 1: Printing Services')" class="btn-primary text-sm w-full">View Details</button>
+        </div>
+       </div>
+       <div class="card overflow-hidden">
+        <div class="h-48 flex items-center justify-center" style="background: linear-gradient(135deg, var(--orange), var(--orange-light));">
+         <svg class="w-20 h-20 text-white opacity-75" fill="none" stroke="currentColor" viewbox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10" />
+         </svg>
+        </div>
+        <div class="p-4">
+         <h3 class="text-lg font-bold mb-2" style="color: var(--navy);">Product 2: Office Stationery</h3>
+         <p class="text-sm mb-4" style="color: var(--gray-600);">Wide range of office supplies and materials</p><button onclick="openProductModal('Product 2: Office Stationery')" class="btn-primary text-sm w-full">View Details</button>
+        </div>
+       </div>
+       <div class="card overflow-hidden">
+        <div class="h-48 flex items-center justify-center" style="background: linear-gradient(135deg, #6366f1, #8b5cf6);">
+         <svg class="w-20 h-20 text-white opacity-75" fill="none" stroke="currentColor" viewbox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 21a4 4 0 01-4-4V5a2 2 0 012-2h4a2 2 0 012 2v12a4 4 0 01-4 4zm0 0h12a2 2 0 002-2v-4a2 2 0 00-2-2h-2.343M11 7.343l1.657-1.657a2 2 0 012.828 0l2.829 2.829a2 2 0 010 2.828l-8.486 8.485M7 17h.01" />
+         </svg>
+        </div>
+        <div class="p-4">
+         <h3 class="text-lg font-bold mb-2" style="color: var(--navy);">Product 3: Custom Print Jobs</h3>
+         <p class="text-sm mb-4" style="color: var(--gray-600);">Specialized printing for unique requirements</p><button onclick="openProductModal('Product 3: Custom Print Jobs')" class="btn-primary text-sm w-full">View Details</button>
+        </div>
+       </div>
+      </div>
+     </div>
+     <div class="section-divider"></div>
+    </section><!-- Page 5: Payment & Hours -->
+    <section id="page-payment" class="page-section">
+     <div class="px-4 py-6 max-w-4xl mx-auto">
+      <h2 class="text-3xl font-bold mb-6 text-center" style="color: var(--navy);">Payment &amp; Business Hours</h2><!-- Payment Section -->
+      <div class="card p-6 mb-6">
+       <h3 class="text-xl font-bold mb-4 text-center" style="color: var(--navy);">UPI Payment</h3>
+       <div class="text-center mb-6">
+        <div class="qr-placeholder mx-auto mb-4">
+         <svg class="w-48 h-48" viewbox="0 0 100 100"><rect width="100" height="100" fill="white" /> <rect x="5" y="5" width="30" height="30" fill="black" /> <rect x="10" y="10" width="20" height="20" fill="white" /> <rect x="65" y="5" width="30" height="30" fill="black" /> <rect x="70" y="10" width="20" height="20" fill="white" /> <rect x="5" y="65" width="30" height="30" fill="black" /> <rect x="10" y="70" width="20" height="20" fill="white" /> <rect x="40" y="40" width="20" height="20" style="fill: var(--orange);" />
+         </svg>
+        </div>
+        <p class="text-lg font-semibold mb-2" style="color: var(--navy);">Scan to Pay</p>
+        <p id="payment-upi" class="text-2xl font-bold mb-4" style="color: var(--orange);">7057239815@paytm</p><button onclick="copyUPI()" class="btn-secondary">
+         <svg class="w-5 h-5" fill="none" stroke="currentColor" viewbox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 5H6a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2v-1M8 5a2 2 0 002 2h2a2 2 0 002-2M8 5a2 2 0 012-2h2a2 2 0 012 2m0 0h2a2 2 0 012 2v3m2 4H10m0 0l3-3m-3 3l3 3" />
+         </svg> Copy UPI ID </button>
+       </div>
+       <div class="grid md:grid-cols-2 gap-4">
+        <div class="flex items-center gap-3 p-3 rounded-lg" style="background: var(--gray-100);">
+         <svg class="w-8 h-8" style="color: var(--orange);" fill="currentColor" viewbox="0 0 20 20"><path fill-rule="evenodd" d="M2.166 4.999A11.954 11.954 0 0010 1.944 11.954 11.954 0 0017.834 5c.11.65.166 1.32.166 2.001 0 5.225-3.34 9.67-8 11.317C5.34 16.67 2 12.225 2 7c0-.682.057-1.35.166-2.001zm11.541 3.708a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
+         </svg>
+         <div>
+          <div class="font-bold" style="color: var(--navy);">
+           Secure Payment
+          </div>
+          <div class="text-sm" style="color: var(--gray-600);">
+           100% Safe &amp; Protected
+          </div>
+         </div>
+        </div>
+        <div class="flex items-center gap-3 p-3 rounded-lg" style="background: var(--gray-100);">
+         <svg class="w-8 h-8" style="color: var(--orange);" fill="currentColor" viewbox="0 0 20 20"><path fill-rule="evenodd" d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z" clip-rule="evenodd" />
+         </svg>
+         <div>
+          <div class="font-bold" style="color: var(--navy);">
+           Instant Confirmation
+          </div>
+          <div class="text-sm" style="color: var(--gray-600);">
+           Immediate Transaction
+          </div>
+         </div>
+        </div>
+       </div>
+      </div><!-- Business Hours -->
+      <div class="card p-6">
+       <h3 class="text-xl font-bold mb-4 text-center" style="color: var(--navy);">Business Hours</h3>
+       <div class="flex items-center justify-center gap-4 mb-6">
+        <svg class="w-12 h-12" style="color: var(--orange);" fill="none" stroke="currentColor" viewbox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+        </svg>
+        <div>
+         <div class="text-2xl font-bold" style="color: var(--navy);">
+          Open 7 Days a Week
+         </div>
+         <div class="text-lg" style="color: var(--gray-600);">
+          Opens at <span id="hours-opening" class="font-bold" style="color: var(--orange);">06:00 AM</span>
+         </div>
+        </div>
+       </div>
+       <div class="space-y-2">
+        <div class="flex justify-between items-center p-3 rounded-lg" style="background: var(--gray-100);"><span class="font-semibold">Monday - Sunday</span> <span id="hours-schedule" style="color: var(--orange);" class="font-bold">06:00 AM onwards</span>
+        </div>
+       </div>
+       <p class="mt-4 text-center text-sm" style="color: var(--gray-600);"><strong>Note:</strong> Closed on public holidays. Please call ahead to confirm availability.</p>
+      </div>
+     </div>
+     <div class="section-divider"></div>
+    </section><!-- Page 6: Gallery -->
+    <section id="page-gallery" class="page-section">
+     <div class="px-4 py-6 max-w-4xl mx-auto">
+      <h2 class="text-3xl font-bold mb-6 text-center" style="color: var(--navy);">Gallery</h2>
+      <div class="gallery-grid">
+       <div class="gallery-item" onclick="openGalleryModal(1)">
+        <svg class="w-16 h-16 text-white opacity-75" fill="none" stroke="currentColor" viewbox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z" />
+        </svg>
+       </div>
+       <div class="gallery-item" style="background: linear-gradient(135deg, var(--orange), var(--orange-light));" onclick="openGalleryModal(2)">
+        <svg class="w-16 h-16 text-white opacity-75" fill="none" stroke="currentColor" viewbox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z" />
+        </svg>
+       </div>
+       <div class="gallery-item" style="background: linear-gradient(135deg, #6366f1, #8b5cf6);" onclick="openGalleryModal(3)">
+        <svg class="w-16 h-16 text-white opacity-75" fill="none" stroke="currentColor" viewbox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z" />
+        </svg>
+       </div>
+       <div class="gallery-item" style="background: linear-gradient(135deg, #10b981, #059669);" onclick="openGalleryModal(4)">
+        <svg class="w-16 h-16 text-white opacity-75" fill="none" stroke="currentColor" viewbox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z" />
+        </svg>
+       </div>
+       <div class="gallery-item" style="background: linear-gradient(135deg, #ec4899, #db2777);" onclick="openGalleryModal(5)">
+        <svg class="w-16 h-16 text-white opacity-75" fill="none" stroke="currentColor" viewbox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z" />
+        </svg>
+       </div>
+       <div class="gallery-item" style="background: linear-gradient(135deg, #f59e0b, #d97706);" onclick="openGalleryModal(6)">
+        <svg class="w-16 h-16 text-white opacity-75" fill="none" stroke="currentColor" viewbox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z" />
+        </svg>
+       </div>
+      </div>
+      <p class="text-center mt-6 text-sm" style="color: var(--gray-600);">Click on any image to view in lightbox</p>
+     </div>
+     <div class="section-divider"></div>
+    </section><!-- Page 7: Feedback -->
+    <section id="page-feedback" class="page-section">
+     <div class="px-4 py-6 max-w-4xl mx-auto">
+      <h2 class="text-3xl font-bold mb-6 text-center" style="color: var(--navy);">Feedback &amp; Reviews</h2><!-- Feedback Form -->
+      <div class="card p-6 mb-6">
+       <h3 class="text-xl font-bold mb-4" style="color: var(--navy);">Share Your Experience</h3>
+       <form id="feedback-form">
+        <div class="mb-4"><label for="feedback-rating" class="mb-2">Rating</label>
+         <div class="star-rating" id="star-rating"><span class="star" data-rating="1">★</span> <span class="star" data-rating="2">★</span> <span class="star" data-rating="3">★</span> <span class="star" data-rating="4">★</span> <span class="star" data-rating="5">★</span>
+         </div><input type="hidden" id="feedback-rating" required>
+        </div>
+        <div class="mb-4"><label for="feedback-name">Your Name *</label> <input type="text" id="feedback-name" required placeholder="Enter your name">
+        </div>
+        <div class="mb-4"><label for="feedback-phone">Phone Number</label> <input type="tel" id="feedback-phone" placeholder="Your phone number (optional)">
+        </div>
+        <div class="mb-6"><label for="feedback-message">Your Feedback *</label> <textarea id="feedback-message" required rows="4" placeholder="Share your experience with us..."></textarea>
+        </div><button type="submit" id="feedback-submit-btn" class="btn-primary w-full"> Submit Feedback </button>
+       </form>
+      </div><!-- Recent Feedbacks -->
+      <div>
+       <h3 class="text-xl font-bold mb-4" style="color: var(--navy);">Recent Reviews</h3>
+       <div id="feedback-list" class="space-y-4"><!-- Feedbacks will be displayed here -->
+       </div>
+       <div id="no-feedback" class="card p-8 text-center" style="color: var(--gray-600);">
+        <svg class="w-16 h-16 mx-auto mb-4 opacity-50" fill="none" stroke="currentColor" viewbox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z" />
+        </svg>
+        <p>No reviews yet. Be the first to share your feedback!</p>
+       </div>
+      </div>
+     </div>
+     <div class="section-divider"></div>
+    </section><!-- Page 8: Enquiry & Share -->
+    <section id="page-enquiry" class="page-section">
+     <div class="px-4 py-6 max-w-4xl mx-auto">
+      <h2 class="text-3xl font-bold mb-6 text-center" style="color: var(--navy);">Enquiry &amp; Share</h2><!-- Enquiry Form -->
+      <div class="card p-6 mb-6">
+       <h3 class="text-xl font-bold mb-4" style="color: var(--navy);">Send Enquiry</h3>
+       <form id="enquiry-form">
+        <div class="mb-4"><label for="enquiry-name">Full Name *</label> <input type="text" id="enquiry-name" required placeholder="Your full name">
+        </div>
+        <div class="mb-4"><label for="enquiry-phone">Phone Number *</label> <input type="tel" id="enquiry-phone" required placeholder="Your phone number">
+        </div>
+        <div class="mb-4"><label for="enquiry-email">Email Address</label> <input type="email" id="enquiry-email" placeholder="your@email.com (optional)">
+        </div>
+        <div class="mb-6"><label for="enquiry-message">Message *</label> <textarea id="enquiry-message" required rows="5" placeholder="Tell us about your requirements..."></textarea>
+        </div><button type="submit" id="enquiry-submit-btn" class="btn-primary w-full"> Send Enquiry </button>
+       </form>
+      </div><!-- Share Section -->
+      <div class="card p-6">
+       <h3 class="text-xl font-bold mb-4 text-center" style="color: var(--navy);">Share Our Business</h3>
+       <div class="mb-6"><label class="mb-2">Website URL</label>
+        <div class="flex gap-2"><input type="text" id="website-url" value="https://bizzkonnect.in/shubham-xerox-and-printers" readonly style="flex: 1;"> <button onclick="copyWebsiteURL()" class="btn-secondary">
+          <svg class="w-5 h-5" fill="none" stroke="currentColor" viewbox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 5H6a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2v-1M8 5a2 2 0 002 2h2a2 2 0 002-2M8 5a2 2 0 012-2h2a2 2 0 012 2m0 0h2a2 2 0 012 2v3m2 4H10m0 0l3-3m-3 3l3 3" />
+          </svg></button>
+        </div>
+       </div>
+       <div class="text-center mb-6">
+        <p class="text-sm mb-3" style="color: var(--gray-600);">Scan QR to open profile</p>
+        <div class="qr-placeholder mx-auto">
+         <svg class="w-48 h-48" viewbox="0 0 100 100"><rect width="100" height="100" fill="white" /> <rect x="5" y="5" width="30" height="30" fill="black" /> <rect x="10" y="10" width="20" height="20" fill="white" /> <rect x="65" y="5" width="30" height="30" fill="black" /> <rect x="70" y="10" width="20" height="20" fill="white" /> <rect x="5" y="65" width="30" height="30" fill="black" /> <rect x="10" y="70" width="20" height="20" fill="white" /> <rect x="40" y="40" width="20" height="20" style="fill: var(--navy);" />
+         </svg>
+        </div>
+       </div><button onclick="shareViaWhatsApp()" class="btn-primary w-full" style="background: linear-gradient(135deg, #25D366, #128C7E);">
+        <svg class="w-5 h-5" fill="currentColor" viewbox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z" />
+        </svg> Share via WhatsApp </button>
+      </div>
+     </div>
+    </section>
+   </div><!-- Bottom Navigation -->
+   <nav class="bottom-nav">
+    <div class="flex justify-around items-center py-2"><a class="nav-item active" href="#page-home">
+      <svg fill="none" stroke="currentColor" viewbox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6" />
+      </svg><span>Home</span> </a> <a class="nav-item" href="#page-about">
+      <svg fill="none" stroke="currentColor" viewbox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+      </svg><span>About</span> </a> <a class="nav-item" href="#page-services">
+      <svg fill="none" stroke="currentColor" viewbox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10" />
+      </svg><span>Services</span> </a> <a class="nav-item" href="#page-products">
+      <svg fill="none" stroke="currentColor" viewbox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20 7l-8-4-8 4m16 0l-8 4m8-4v10l-8 4m0-10L4 7m8 4v10M4 7v10l8 4" />
+      </svg><span>Products</span> </a> <a class="nav-item" href="#page-payment">
+      <svg fill="none" stroke="currentColor" viewbox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 9V7a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2m2 4h10a2 2 0 002-2v-6a2 2 0 00-2-2H9a2 2 0 00-2 2v6a2 2 0 002 2zm7-5a2 2 0 11-4 0 2 2 0 014 0z" />
+      </svg><span>Payment</span> </a> <a class="nav-item" href="#page-gallery">
+      <svg fill="none" stroke="currentColor" viewbox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z" />
+      </svg><span>Gallery</span> </a> <a class="nav-item" href="#page-feedback">
+      <svg fill="none" stroke="currentColor" viewbox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z" />
+      </svg><span>Feedback</span> </a> <a class="nav-item" href="#page-enquiry">
+      <svg fill="none" stroke="currentColor" viewbox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8.684 13.342C8.886 12.938 9 12.482 9 12c0-.482-.114-.938-.316-1.342m0 2.684a3 3 0 110-2.684m0 2.684l6.632 3.316m-6.632-6l6.632-3.316m0 0a3 3 0 105.367-2.684 3 3 0 00-5.367 2.684zm0 9.316a3 3 0 105.368 2.684 3 3 0 00-5.368-2.684z" />
+      </svg><span>Share</span> </a>
+    </div>
+   </nav><!-- Floating Action Buttons --> <a id="floating-whatsapp" href="https://wa.me/917057239815" target="_blank" rel="noopener noreferrer" class="floating-whatsapp">
+    <svg class="w-8 h-8 text-white" fill="currentColor" viewbox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z" />
+    </svg></a> <a id="floating-call" href="tel:7057239815" class="floating-call">
+    <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewbox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
+    </svg></a> <!-- Modals --> <!-- Product Modal -->
+   <div id="product-modal" class="modal">
+    <div class="modal-content">
+     <div class="flex justify-between items-center mb-4">
+      <h3 id="product-modal-title" class="text-2xl font-bold" style="color: var(--navy);"></h3><button onclick="closeModal('product-modal')" style="color: var(--gray-600);">
+       <svg class="w-6 h-6" fill="none" stroke="currentColor" viewbox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+       </svg></button>
+     </div>
+     <p class="mb-6" style="color: var(--gray-600);">For detailed information and pricing, please contact us directly.</p>
+     <div class="flex gap-3"><a id="product-call-btn" href="tel:7057239815" class="btn-primary flex-1">Call Now</a> <button onclick="closeModal('product-modal')" class="btn-secondary flex-1">Close</button>
+     </div>
+    </div>
+   </div><!-- Gallery Modal -->
+   <div id="gallery-modal" class="modal">
+    <div class="modal-content">
+     <div class="flex justify-between items-center mb-4">
+      <h3 class="text-2xl font-bold" style="color: var(--navy);">Gallery Image</h3><button onclick="closeModal('gallery-modal')" style="color: var(--gray-600);">
+       <svg class="w-6 h-6" fill="none" stroke="currentColor" viewbox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+       </svg></button>
+     </div>
+     <div id="gallery-modal-content" class="text-center">
+      <div class="w-full h-64 rounded-lg flex items-center justify-center mb-4" style="background: linear-gradient(135deg, var(--navy), var(--navy-light));">
+       <svg class="w-32 h-32 text-white opacity-50" fill="none" stroke="currentColor" viewbox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z" />
+       </svg>
+      </div>
+      <p style="color: var(--gray-600);">Shop photo placeholder - Image gallery coming soon</p>
+     </div><button onclick="closeModal('gallery-modal')" class="btn-secondary w-full mt-4">Close</button>
+    </div>
+   </div><!-- Success Modal -->
+   <div id="success-modal" class="modal">
+    <div class="modal-content text-center">
+     <div class="w-20 h-20 rounded-full flex items-center justify-center mx-auto mb-4" style="background: #dcfce7;">
+      <svg class="w-12 h-12" style="color: #166534;" fill="none" stroke="currentColor" viewbox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+      </svg>
+     </div>
+     <h3 id="success-modal-title" class="text-2xl font-bold mb-3" style="color: var(--navy);">Success!</h3>
+     <p id="success-modal-message" class="mb-6" style="color: var(--gray-600);"></p><button onclick="closeModal('success-modal')" class="btn-primary">Close</button>
+    </div>
+   </div>
+  </div>
+  <script>
+    // Configuration
+    const defaultConfig = {
+      business_name_english: 'Shubham Xerox and Printers',
+      business_name_marathi: 'शुभम झेरॉक्स & प्रिंटर्स',
+      tagline: 'Reliable Xerox & Printing Services',
+      phone_number: '7057239815',
+      email_address: 'dodalshubham96@gmail.com',
+      address_marathi: 'मु.सिरसम ( बु. ), ता.जि. हिंगोली',
+      upi_id: '7057239815@paytm',
+      website_url: 'https://bizzkonnect.in/shubham-xerox-and-printers',
+      manager_name: 'शुभम जिवराज दोडल',
+      opening_time: '06:00 AM',
+      established_year: '2021'
+    };
+
+    let currentRecordCount = 0;
+    let selectedRating = 0;
+
+    // Element SDK Implementation
+    async function onConfigChange(config) {
+      document.getElementById('business-name-english').textContent = config.business_name_english || defaultConfig.business_name_english;
+      document.getElementById('business-name-marathi').textContent = config.business_name_marathi || defaultConfig.business_name_marathi;
+      document.getElementById('tagline').textContent = config.tagline || defaultConfig.tagline;
+      
+      const phoneNumber = config.phone_number || defaultConfig.phone_number;
+      document.getElementById('home-call-btn').href = `tel:${phoneNumber}`;
+      document.getElementById('home-whatsapp-btn').href = `https://wa.me/91${phoneNumber}`;
+      document.getElementById('floating-whatsapp').href = `https://wa.me/91${phoneNumber}`;
+      document.getElementById('floating-call').href = `tel:${phoneNumber}`;
+      document.getElementById('product-call-btn').href = `tel:${phoneNumber}`;
+      
+      const address = config.address_marathi || defaultConfig.address_marathi;
+      document.getElementById('home-directions-btn').href = `https://maps.google.com/?q=${encodeURIComponent(address)}`;
+      
+      document.getElementById('about-established-year').textContent = config.established_year || defaultConfig.established_year;
+      document.getElementById('about-established').textContent = config.established_year || defaultConfig.established_year;
+      document.getElementById('about-manager').textContent = config.manager_name || defaultConfig.manager_name;
+      
+      const years = new Date().getFullYear() - parseInt(config.established_year || defaultConfig.established_year);
+      document.getElementById('years-badge').textContent = `${years}+`;
+      
+      document.getElementById('payment-upi').textContent = config.upi_id || defaultConfig.upi_id;
+      document.getElementById('hours-opening').textContent = config.opening_time || defaultConfig.opening_time;
+      document.getElementById('hours-schedule').textContent = `${config.opening_time || defaultConfig.opening_time} onwards`;
+      
+      document.getElementById('website-url').value = config.website_url || defaultConfig.website_url;
+    }
+
+    function mapToCapabilities(config) {
+      return {
+        recolorables: [],
+        borderables: [],
+        fontEditable: undefined,
+        fontSizeable: undefined
+      };
+    }
+
+    function mapToEditPanelValues(config) {
+      return new Map([
+        ['business_name_english', config.business_name_english || defaultConfig.business_name_english],
+        ['business_name_marathi', config.business_name_marathi || defaultConfig.business_name_marathi],
+        ['tagline', config.tagline || defaultConfig.tagline],
+        ['phone_number', config.phone_number || defaultConfig.phone_number],
+        ['email_address', config.email_address || defaultConfig.email_address],
+        ['address_marathi', config.address_marathi || defaultConfig.address_marathi],
+        ['upi_id', config.upi_id || defaultConfig.upi_id],
+        ['website_url', config.website_url || defaultConfig.website_url],
+        ['manager_name', config.manager_name || defaultConfig.manager_name],
+        ['opening_time', config.opening_time || defaultConfig.opening_time],
+        ['established_year', config.established_year || defaultConfig.established_year]
+      ]);
+    }
+
+    if (window.elementSdk) {
+      window.elementSdk.init({
+        defaultConfig,
+        onConfigChange,
+        mapToCapabilities,
+        mapToEditPanelValues
+      });
+    }
+
+    // Data SDK Implementation
+    const dataHandler = {
+      onDataChanged(data) {
+        currentRecordCount = data.length;
+        renderFeedbacks(data);
+      }
+    };
+
+    (async () => {
+      const initResult = await window.dataSdk.init(dataHandler);
+      if (!initResult.isOk) {
+        console.error("Failed to initialize Data SDK");
+      }
+    })();
+
+    // Navigation - Update active state on scroll
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          const id = entry.target.id;
+          const pageId = id.replace('page-', '');
+          
+          document.querySelectorAll('.nav-item').forEach(item => {
+            item.classList.remove('active');
+          });
+          
+          const activeLink = document.querySelector(`[href="#${id}"]`);
+          if (activeLink) {
+            activeLink.classList.add('active');
+          }
+        }
+      });
+    }, { threshold: 0.5 });
+
+    document.querySelectorAll('.page-section').forEach(section => {
+      observer.observe(section);
+    });
+
+    // Open/Closed Badge Update
+    function updateOpenStatus() {
+      const now = new Date();
+      const currentHour = now.getHours();
+      const openingHour = 6;
+      
+      const badge = document.getElementById('open-badge');
+      if (currentHour >= openingHour) {
+        badge.className = 'badge badge-success';
+        badge.innerHTML = '<span class="w-2 h-2 bg-green-600 rounded-full animate-pulse"></span><span>Open Now</span>';
+      } else {
+        badge.className = 'badge badge-danger';
+        badge.innerHTML = '<span class="w-2 h-2 bg-red-600 rounded-full"></span><span>Closed</span>';
+      }
+    }
+    
+    updateOpenStatus();
+    setInterval(updateOpenStatus, 60000);
+
+    // Star Rating
+    document.querySelectorAll('.star').forEach(star => {
+      star.addEventListener('click', function() {
+        selectedRating = parseInt(this.dataset.rating);
+        document.getElementById('feedback-rating').value = selectedRating;
+        
+        document.querySelectorAll('.star').forEach(s => s.classList.remove('active'));
+        for (let i = 0; i < selectedRating; i++) {
+          document.querySelectorAll('.star')[i].classList.add('active');
+        }
+      });
+      
+      star.addEventListener('mouseenter', function() {
+        const rating = parseInt(this.dataset.rating);
+        document.querySelectorAll('.star').forEach((s, index) => {
+          if (index < rating) {
+            s.style.color = '#fbbf24';
+          } else {
+            s.style.color = '';
+          }
+        });
+      });
+    });
+
+    document.getElementById('star-rating').addEventListener('mouseleave', function() {
+      document.querySelectorAll('.star').forEach((s, index) => {
+        if (index < selectedRating) {
+          s.classList.add('active');
+        } else {
+          s.classList.remove('active');
+          s.style.color = '';
+        }
+      });
+    });
+
+    // Feedback Form
+    document.getElementById('feedback-form').addEventListener('submit', async (e) => {
+      e.preventDefault();
+      
+      if (currentRecordCount >= 999) {
+        showToast('Maximum limit reached. Cannot submit feedback.', 'error');
+        return;
+      }
+      
+      if (!selectedRating) {
+        showToast('Please select a rating', 'error');
+        return;
+      }
+
+      const submitBtn = document.getElementById('feedback-submit-btn');
+      submitBtn.disabled = true;
+      submitBtn.textContent = 'Submitting...';
+
+      const feedback = {
+        id: Date.now().toString(),
+        type: 'feedback',
+        name: document.getElementById('feedback-name').value,
+        phone: document.getElementById('feedback-phone').value || 'Not provided',
+        email: '',
+        message: document.getElementById('feedback-message').value,
+        rating: selectedRating,
+        createdAt: new Date().toISOString()
+      };
+
+      const result = await window.dataSdk.create(feedback);
+      
+      submitBtn.disabled = false;
+      submitBtn.textContent = 'Submit Feedback';
+
+      if (result.isOk) {
+        e.target.reset();
+        selectedRating = 0;
+        document.querySelectorAll('.star').forEach(s => s.classList.remove('active'));
+        showSuccessModal('Thank You!', 'Your feedback has been submitted successfully. We appreciate your input!');
+      } else {
+        showToast('Failed to submit feedback. Please try again.', 'error');
+      }
+    });
+
+    // Enquiry Form
+    document.getElementById('enquiry-form').addEventListener('submit', async (e) => {
+      e.preventDefault();
+      
+      if (currentRecordCount >= 999) {
+        showToast('Maximum limit reached. Cannot submit enquiry.', 'error');
+        return;
+      }
+
+      const submitBtn = document.getElementById('enquiry-submit-btn');
+      submitBtn.disabled = true;
+      submitBtn.textContent = 'Sending...';
+
+      const enquiry = {
+        id: Date.now().toString(),
+        type: 'enquiry',
+        name: document.getElementById('enquiry-name').value,
+        phone: document.getElementById('enquiry-phone').value,
+        email: document.getElementById('enquiry-email').value || 'Not provided',
+        message: document.getElementById('enquiry-message').value,
+        rating: 0,
+        createdAt: new Date().toISOString()
+      };
+
+      const result = await window.dataSdk.create(enquiry);
+      
+      submitBtn.disabled = false;
+      submitBtn.textContent = 'Send Enquiry';
+
+      if (result.isOk) {
+        e.target.reset();
+        showSuccessModal('Enquiry Sent!', 'Thank you for your enquiry. We will contact you shortly.');
+      } else {
+        showToast('Failed to send enquiry. Please try again.', 'error');
+      }
+    });
+
+    // Render Feedbacks
+    function renderFeedbacks(data) {
+      const feedbacks = data.filter(item => item.type === 'feedback').sort((a, b) => 
+        new Date(b.createdAt) - new Date(a.createdAt)
+      );
+      
+      const feedbackList = document.getElementById('feedback-list');
+      const noFeedback = document.getElementById('no-feedback');
+      
+      if (feedbacks.length === 0) {
+        feedbackList.innerHTML = '';
+        noFeedback.style.display = 'block';
+        return;
+      }
+      
+      noFeedback.style.display = 'none';
+      feedbackList.innerHTML = feedbacks.map(feedback => {
+        const stars = '★'.repeat(feedback.rating) + '☆'.repeat(5 - feedback.rating);
+        const date = new Date(feedback.createdAt).toLocaleDateString('en-IN', {
+          year: 'numeric',
+          month: 'short',
+          day: 'numeric'
+        });
+        
+        return `
+          <div class="card p-5">
+            <div class="flex justify-between items-start mb-3">
+              <div>
+                <h4 class="font-bold text-lg" style="color: var(--navy);">${feedback.name}</h4>
+                <p class="text-sm" style="color: var(--gray-600);">${date}</p>
+              </div>
+              <div class="text-2xl" style="color: #fbbf24;">${stars}</div>
+            </div>
+            <p style="color: var(--gray-600);">${feedback.message}</p>
+          </div>
+        `;
+      }).join('');
+    }
+
+    // Modal Functions
+    function openProductModal(productName) {
+      document.getElementById('product-modal-title').textContent = productName;
+      document.getElementById('product-modal').classList.add('active');
+    }
+
+    function openGalleryModal(imageNum) {
+      document.getElementById('gallery-modal').classList.add('active');
+    }
+
+    function openEnquiryModal(service) {
+      window.location.href = '#page-enquiry';
+      setTimeout(() => {
+        document.getElementById('enquiry-message').value = `I am interested in: ${service}\n\n`;
+        document.getElementById('enquiry-message').focus();
+      }, 500);
+    }
+
+    function closeModal(modalId) {
+      document.getElementById(modalId).classList.remove('active');
+    }
+
+    function showSuccessModal(title, message) {
+      document.getElementById('success-modal-title').textContent = title;
+      document.getElementById('success-modal-message').textContent = message;
+      document.getElementById('success-modal').classList.add('active');
+    }
+
+    // Utility Functions
+    function copyUPI() {
+      const upiId = document.getElementById('payment-upi').textContent;
+      navigator.clipboard.writeText(upiId).then(() => {
+        showToast('UPI ID copied to clipboard!', 'success');
+      });
+    }
+
+    function copyWebsiteURL() {
+      const url = document.getElementById('website-url').value;
+      navigator.clipboard.writeText(url).then(() => {
+        showToast('Website URL copied to clipboard!', 'success');
+      });
+    }
+
+    function shareViaWhatsApp() {
+      const url = document.getElementById('website-url').value;
+      const text = `Check out Shubham Xerox and Printers - शुभम झेरॉक्स & प्रिंटर्स\n${url}`;
+      window.open(`https://wa.me/?text=${encodeURIComponent(text)}`, '_blank');
+    }
+
+    function addToPhoneBook() {
+      const vcard = `BEGIN:VCARD
+VERSION:3.0
+FN:Shubham Xerox and Printers
+TEL:7057239815
+EMAIL:dodalshubham96@gmail.com
+ADR:;;मु.सिरसम ( बु. );;Hingoli;;India
+URL:https://bizzkonnect.in/shubham-xerox-and-printers
+END:VCARD`;
+      
+      const blob = new Blob([vcard], { type: 'text/vcard' });
+      const url = URL.createObjectURL(blob);
+      const a = document.createElement('a');
+      a.href = url;
+      a.download = 'Shubham_Xerox.vcf';
+      a.click();
+      showToast('Contact saved! Check your downloads.', 'success');
+    }
+
+    function saveBusinessCard() {
+      showToast('Business card download started!', 'success');
+      addToPhoneBook();
+    }
+
+    function showToast(message, type = 'success') {
+      const toast = document.createElement('div');
+      toast.className = 'fixed top-20 left-1/2 transform -translate-x-1/2 px-6 py-3 rounded-full font-semibold text-white z-50 shadow-lg';
+      toast.style.background = type === 'success' ? 'linear-gradient(135deg, #10b981, #059669)' : 'linear-gradient(135deg, #ef4444, #dc2626)';
+      toast.textContent = message;
+      document.body.appendChild(toast);
+      
+      setTimeout(() => {
+        toast.style.opacity = '0';
+        toast.style.transition = 'opacity 0.3s ease';
+        setTimeout(() => toast.remove(), 300);
+      }, 3000);
+    }
+
+    // Close modals on outside click
+    document.querySelectorAll('.modal').forEach(modal => {
+      modal.addEventListener('click', (e) => {
+        if (e.target === modal) {
+          modal.classList.remove('active');
+        }
+      });
+    });
+  </script>
+ <script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'9bf7da67a0270868',t:'MTc2ODY3Mzg4Ni4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+</html>
